@@ -125,7 +125,7 @@ button:hover{
     background-color: #ffffffe9;
     width: 1200px;
     height: 170px;
-    position: fixed;
+    position: absolute;
     border-radius: 10px;
     margin-top: 700px;
     padding-right: 10px;
