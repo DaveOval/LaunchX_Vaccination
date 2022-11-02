@@ -128,7 +128,7 @@ button:hover{
     position: absolute;
     border-radius: 10px;
     margin-top: 700px;
-    margin-left: 1px;
+    padding-right: 10px;
     margin-right:500px;
     box-shadow:
             1.9px 2.6px 3.9px rgba(0, 0, 0, 0.064),
@@ -276,4 +276,17 @@ input:active {
 
 footer{
     background-color: #eef3ff;
+}
+@media (max-width: 720px) {
+    #nav{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        position: static;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
 }
