@@ -65,6 +65,7 @@ button:hover{
     background-color: #ffffffe9;
     position: fixed;
     width: 100%;
+    z-index: 10;
 }
 .logo {
     color: #435fcd;
@@ -124,9 +125,10 @@ button:hover{
     background-color: #ffffffe9;
     width: 1200px;
     height: 170px;
-    position: fixed;
+    position: absolute;
     border-radius: 10px;
     margin-top: 700px;
+    margin-left: 1px;
     margin-right:500px;
     box-shadow:
             1.9px 2.6px 3.9px rgba(0, 0, 0, 0.064),
@@ -229,9 +231,33 @@ input:active {
 }
 .preparativos{
     padding: 10px 100px;
+    justify-content: space-between;
 }
 
-
+.carta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f8fafe;
+    border: #f8fafe;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px;
+    box-shadow:
+            2.8px 2.9px 3.6px rgba(0, 0, 0, 0.16),
+            7.8px 7.9px 10px rgba(0, 0, 0, 0.104),
+            18.7px 19px 24.1px rgba(0, 0, 0, 0.08),
+            62px 63px 80px rgba(0, 0, 0, 0.056);
+}
+.preparativo1{
+    font-size: 1.5em;
+    color: #1f3e72;
+    
+}
+.preparativo2 {
+    font-size: 1.3em;
+    color: #6e7c94;
+}
 
 #emergency {
     padding-top: 300px;
@@ -243,4 +269,11 @@ input:active {
     background-size: 50vh;
     background: rgb(47, 103, 190);
     background: linear-gradient(270deg, rgba(47, 103, 190, 1) 0%, rgba(29, 128, 224, 1) 35%, rgba(56, 158, 222, 1) 100%);
+}
+.emergy-description{
+    padding: 70px;
+}
+
+footer{
+    background-color: #eef3ff;
 }
