@@ -272,7 +272,7 @@ input:active {
     background: linear-gradient(270deg, rgba(47, 103, 190, 1) 0%, rgba(29, 128, 224, 1) 35%, rgba(56, 158, 222, 1) 100%);
 }
 .emergy-description{
-    padding: 70px;
+    padding: 1px;
 }
 .contactos{
     display: grid;
@@ -310,10 +310,30 @@ footer{
 }
 .parent{ 
     display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        grid-column-gap: px;
-        grid-row-gap: 0px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: auto;
+}
+.div1 {grid-area: 1 / 1 / 2 / 2;}
+.div2 {grid-area: 1 / 2 / 2 / 3;}
+.div3 {grid-area: 1 / 3 / 2 / 4;}
+.div4 {grid-area: 1 / 4 / 2 / 5;}
+.div5 {grid-area: 2 / 1 / 3 / 5;}
+.footer-card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+.footer-card-down{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-card-down{
+    padding: 0 20px;
 }
 @media (max-width: 720px) {
     #nav{
