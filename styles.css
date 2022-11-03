@@ -266,15 +266,19 @@ input:active {
     flex-direction: row;
 }
 .mujer2 {
-    width: 90vh;
+    display: flex;
+    width: 80vh;
     background-size: 50vh;
     background: rgb(47, 103, 190);
     background: linear-gradient(270deg, rgba(47, 103, 190, 1) 0%, rgba(29, 128, 224, 1) 35%, rgba(56, 158, 222, 1) 100%);
 }
 .emergy-description{
+    display: flex;
+    flex-direction: column;
     padding: 1px;
 }
 .contactos{
+    display: flex;
     display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
