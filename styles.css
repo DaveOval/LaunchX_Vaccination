@@ -85,6 +85,7 @@ button:hover{
     max-width: 50vw;
     padding: 200px;
     padding-bottom: 40px;
+    font-weight: 1000;
 }
 
 .contenedor2 {
@@ -98,8 +99,9 @@ button:hover{
     max-width: 50vw;
     color: #1f3e72;
     text-align: center;
-    font-weight: 700;
+    font-weight: 600;
     align-items: baseline;
+    font-size: 20px;
 }
 
 .contenedor4 { 
@@ -227,6 +229,7 @@ input{
 .marca{
     display: flex;
     justify-content:center ;
+    opacity: 0.2;
 }
 
 #porquevacunarse{
@@ -370,5 +373,20 @@ input{
     justify-content: space-around;
 }
 footer{
-    background-color: eef3ff;
+    background-color: #eef3ff;
+}
+.img-emergencia{
+    display: flex;
+        max-width: 50vw;
+        padding-top: 120px;
+        grid-area: 1 / 2 / 4 / 3;
+        background: rgb(42, 71, 116);
+        background: linear-gradient(270deg, rgba(53, 113, 207, 1) 0%, rgba(46, 137, 226, 1) 47%, rgba(95, 193, 255, 1) 100%);
+}
+.img-emergencia-size {
+    display: flex;
+    height: 1000px;
+    padding-top: 120px;
+    
+
 }
