@@ -293,7 +293,7 @@ input{
     height: auto;
 }
 .columna{
-    padding: 20px;
+    padding: 25px;
     border-radius: 10px;
     display: flex;
     flex-direction: row;
@@ -361,9 +361,9 @@ input{
     grid-area: 1 / 2 / 2 / 3;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-around;
-    text-align: start;
+    
+    color:  #738198;
 }
 
 .campo3 {
