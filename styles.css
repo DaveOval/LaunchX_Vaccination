@@ -126,7 +126,7 @@ button:hover{
 }
 
 #cita{
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     left: 0px;
     max-height: 180px;
@@ -432,8 +432,9 @@ footer{
 }
 .footer-5{
     display: flex;
-    flex-direction: row;
     text-align: center;
     justify-content: space-between;
     color: #738198;
+    
 }
+
