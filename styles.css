@@ -320,6 +320,7 @@ input{
     grid-row-gap: 0px;
 }
 .tarjetas-contacto {
+    margin-top: 150px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -389,4 +390,24 @@ footer{
     padding-top: 120px;
     
 
+}
+.button2 {
+    background-color: #f1f5ff;
+    color: #2848c5;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.button2:hover {
+    color: #f1f5ff;
+    background-color: #1c359b;
+    box-shadow:
+        2.3px 4.1px 2.7px rgba(0, 0, 0, 0.04),
+        5.9px 10.3px 6.9px rgba(0, 0, 0, 0.058),
+        12.1px 21.1px 14.2px rgba(0, 0, 0, 0.072),
+        24.8px 43.4px 29.2px rgba(0, 0, 0, 0.09),
+        68px 119px 80px rgba(0, 0, 0, 0.13);
 }
