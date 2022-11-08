@@ -113,7 +113,7 @@ button:hover{
     background: linear-gradient(270deg, rgba(53, 113, 207, 1) 0%, rgba(46, 137, 226, 1) 47%, rgba(95, 193, 255, 1) 100%);
 }
 .enfemera{
-    
+    display: flex;
 }
 
 .cita-contenedor {
@@ -126,7 +126,7 @@ button:hover{
 }
 
 #cita{
-    position: fixed;
+    position: absolute;
     bottom: 0px;
     left: 0px;
     max-height: 180px;
@@ -277,6 +277,7 @@ input{
     background: linear-gradient(270deg, rgba(53, 113, 207, 1) 0%, rgba(46, 137, 226, 1) 47%, rgba(95, 193, 255, 1) 100%);
 
 }
+
 .preparations{
     padding: 80px;
 }
